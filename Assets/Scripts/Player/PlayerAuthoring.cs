@@ -5,7 +5,7 @@ public class PlayerAuthoring : MonoBehaviour
 {
    public float MoveSpeed = 5f;
         public GameObject BulletPrefab;
-        public int NumOfBulletsToSpawn = 50;
+        public int NumOfBulletsToSpawn = 10;
        [Range(0,10f)] public float BulletSread = 5f;
        
    public class PlayerBaker:Baker<PlayerAuthoring>
